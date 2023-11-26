@@ -5,7 +5,7 @@ let i=0;
 name.innerText=names[i];
 
 function next(){
-	if(i=>names.length){
+	if(i>=names.length-1){
 		i=0;
 	return name.innerText=names[i];
 	}

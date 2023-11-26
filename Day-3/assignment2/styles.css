@@ -1,0 +1,30 @@
+*{
+	text-align: center;
+
+}
+.flex{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	height: 90vh;
+
+}
+button {
+/*	position: absolute;
+	top: 50%;*/
+	height: 5%;
+	width: 10%;
+	border-radius: 12px;
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+.name{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+/*	margin-top:50% ;*/
+}

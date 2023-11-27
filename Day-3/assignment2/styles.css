@@ -44,3 +44,15 @@ button {
 	justify-content: center;
 	align-items: center;
 }
+#next:hover{
+	height: 40px;
+	width: 120px;
+	background-color: limegreen;
+	transition: 0.5s ease-in-out;
+}
+#previous:hover{
+	height: 40px;
+	width: 120px;
+	background-color: tomato;
+	transition: 0.5s ease-in-out;
+}

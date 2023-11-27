@@ -1,30 +1,45 @@
 *{
 	text-align: center;
 
+
 }
+body{
+	
+	    height: 100vh;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex{
 
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	justify-content: space-around;
-	height: 90vh;
+/*	justify-content: space-around;*/
+/*	height: 90vh;*/
+	
+}
 
+.flex-button{
+	width: 100%;
+	
 }
 button {
 /*	position: absolute;
 	top: 50%;*/
-	height: 5%;
-	width: 10%;
+	height: 30px;
+	width: 100px;
 	border-radius: 12px;
 	background: black;
 	color: white;
 	cursor: pointer;
 }
 .name{
-	position: absolute;
-	top: 20%;
-	left: 45%;
-/*	margin-top:50% ;*/
+	width: 100%;
+	justify-content: center;
+	align-items: center;
 }
